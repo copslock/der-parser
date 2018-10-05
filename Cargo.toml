@@ -19,7 +19,7 @@ include = [
 ]
 
 [dependencies]
-nom = {version = "4.0", features = ["verbose-errors"]}
+nom = "^3.0"
 rusticata-macros = "1.0"
 num-bigint = { version = "0.2", optional = true }
 
